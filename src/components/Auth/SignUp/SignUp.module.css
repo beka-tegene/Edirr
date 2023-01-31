@@ -1,0 +1,94 @@
+.sign-container {
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  /* color: #579BB1; */
+  text-transform: capitalize;
+  margin: 5rem 0;
+}
+.sign {
+  width: 500px;
+  /* background-color: #b8ffff; */
+  border: 2px solid;
+  border-radius: 9px;
+  box-shadow: 5px 5px 12px #0003, -5px -5px 12px #0003;
+  border-color: #222c65;
+}
+.sign-h1 {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 45px;
+}
+
+.sign-h4 {
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 22px;
+  text-transform: none;
+
+}
+.sign-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin: 0 4rem;
+}
+.form-control label {
+  color: gray;
+  padding-bottom: 0.2em;
+}
+.form-control input {
+  padding: 0.5rem 0.7rem;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #0a6ec7;
+  outline: none;
+  background-color: #c4f1ff19;
+  /* border: none; */
+  /* border-bottom: 2px solid #222c65; */
+  /* color: #579BB1; */
+}
+.form-controls{
+  display: flex;
+  margin: 2rem 4rem 0;
+}
+.form-controls span{
+  padding-left: 0.4em;
+  font-size: 13px;
+}
+.sign-btn {
+  margin: 0 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.sign-btn button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font: inherit;
+  border: #222c65 1px solid;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #222c65;
+}
+.sign-btn button:hover{
+  background-color: #c0c0c0;
+  border-color: #c0c0c0;
+}
+.sign-p {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 14px;
+}
+.sign-p a {
+  color: #00bfff;
+  font-size: 18px;
+  font-weight: bold;
+}

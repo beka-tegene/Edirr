@@ -1,0 +1,120 @@
+.userNav-container {
+  height: 11vh;
+  width: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 5px #0003;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.userNav-left {
+  display: flex;
+  align-items: center;
+  flex: 1 200px;
+  justify-content: space-between;
+  padding: 1rem 1%;
+}
+.userNav-logo {
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+.userNav-logo img {
+  width: 100%;
+  height: auto;
+}
+.userNav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 85%;
+  text-align: right;
+}
+.userNav-right>div{
+  display: flex;
+  align-items: center;
+}
+.userNav-search {
+  width: fit-content;
+  height: fit-content;
+  background-color: #0000000b;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.userNav-search input {
+  padding: 0rem 1rem;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.userNav-search i {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.userNav-notification {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 6rem;
+  cursor: pointer;
+}
+
+.userNav-profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.userNav-profile img {
+  width: 50px;
+  height: 45px;
+  border-radius: 50%;
+}
+.userNav-dropdown {
+  position: absolute;
+  top: 10.5vh;
+  right: 5%;
+  background-color: #e8ecff;
+  padding: 0.5rem 2rem 1rem 0.5rem;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  text-align: left;
+  z-index: 10;
+}
+.userNav-dropdown li {
+  width: 100%;
+  padding: 0.3rem;
+}
+.userNav-dropdown li:hover {
+  background-color: #9aadff2f;
+}
+.userNav-dropdown li a {
+  color: #545d87;
+  /* cursor: pointer; */
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+.userNav-dropdown li a i {
+  font-weight: bold;
+  font-size: 18px;
+}
+.userNav-container>i{
+  position: fixed;
+  bottom: 25px;
+  color: #3f76e3;
+  right: 50px;
+  font-size: 42px;
+  z-index: 10;
+  cursor: pointer;
+}
+.userNav-container>i:hover{
+  transform: scale(1.05);
+}
+.userNav-container>i:active{
+  transform: scale(0.9);
+}

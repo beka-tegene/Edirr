@@ -1,0 +1,144 @@
+.account-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  height: 89vh;
+  width: calc(90% - 125px);
+  position: relative;
+  color: white;
+}
+.account-center {
+  width: 97%;
+  margin: auto;
+  height: 85vh;
+  background: linear-gradient(#222b65 , #58619b);
+  /* background-color: #222b65; */
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px #0003;
+  /* overflow: scroll; */
+  display: flex;
+}
+.account-left{
+  flex: 1 75%;
+  background: linear-gradient(90deg ,#96a4fc , #5e67a0);
+  margin: auto 2rem;
+  height: 81vh;
+  border-radius: 15px;
+  overflow: scroll;
+  padding: 1rem 5rem;
+}
+.account-left h1{
+  margin: 1rem 0;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.account-left-info{
+
+}
+.account-left-info li{
+  background-color: #ffffff53;
+  color: black;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  border: 2px solid #e9e9e9;
+  cursor: pointer;
+}
+.account-info{
+
+}
+.account-info-left{
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+  padding: 1rem;
+  font-size: 18px;
+  width: 75%;
+  text-transform: capitalize;
+}
+.account-info-left span:first-child{
+  font-weight: bold;
+  flex: 1 50%;
+}
+.account-info-left span:last-child{
+  flex: 1 50%;
+}
+.account-right{
+  flex: 1 25%;
+  margin: 1rem;
+}
+.account-right-profile{
+  width: 100%;
+  height: 38vh;
+  overflow: hidden;
+  border: 15px solid #fff;
+  border-radius: 50%;
+}
+.account-right-profile img{
+  width: 100%;
+  border-radius: 50%;
+}
+.account-right-text{
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.account-right-text h1{
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.account-right-info{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.account-right-information{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.account-right-information>span{
+  font-size: 12px;
+}
+.account-right-information>div{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.account-right-btn{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.account-right-btn a{
+  padding: 0.7rem 0;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 5px;
+  font: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+.account-right-btn a:hover{
+  transform: scale(1.05);
+}
+.account-right-btn a:first-child{
+  border: none;
+  outline: none;
+  background-color: #5c72ff;
+  color: white;
+}
+.account-right-btn a:last-child{
+  border: 2px solid #ff7878;
+  outline: none;
+  color: #ff7878;
+  background-color: transparent;
+}

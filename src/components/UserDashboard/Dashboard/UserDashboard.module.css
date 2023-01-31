@@ -1,0 +1,38 @@
+.dashboard-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 89vh;
+  width: calc(90% - 125px);
+  position: relative;
+}
+.dashboard-container img{
+    position: absolute;
+    z-index: 0;
+  width: 50%;
+
+}
+.dashboard-center {
+    z-index: 1;
+  width: 50%;
+  background-color: #00000023;
+  height: 350px;
+  color: #222c65;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px #0003;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+.dashboard-center h1 {
+  font-size: 30px;
+  padding: 1rem 0rem 6rem;
+}
+.dashboard-center a {
+  padding: 1rem 3rem;
+  background-color: #1b90d8;
+  margin: 0 1rem 0 0;
+  color: white;
+  border-radius: 5px;
+}

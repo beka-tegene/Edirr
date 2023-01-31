@@ -1,0 +1,41 @@
+.edirr-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  height: 89vh;
+  width: calc(90% - 125px);
+  position: relative;
+}
+.edirr-center {
+  width: 97%;
+  margin: auto;
+  /* background-color: #E3E3E3; */
+  height: 85vh;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px #0003;
+  overflow: scroll;
+}
+
+.edirr-header-btn{
+    display: flex;
+    background-color: #e3e3e3;
+    width: 18%;
+    justify-content: space-around;
+}
+.edirr-header-btn button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font: inherit;
+    color: gray;
+}
+.edirr-header-btn button:active{
+  color: black;
+}
+.edirr-header-btn button span{
+    background-color: #E9ECF1;
+    padding: 0.1rem;
+    border-radius: 5px;
+}
